@@ -22,6 +22,7 @@ library
   build-depends:   base >= 4.7 && < 5
                 ,  yesod
                 ,  data-default
+                ,  text
 
 executable fs2
   hs-source-dirs:      src
@@ -34,3 +35,4 @@ executable fs2
   build-depends:       base >= 4.7 && < 5
                     ,  yesod
                     ,  data-default
+                    ,  text
