@@ -23,6 +23,7 @@ library
                 ,  yesod
                 ,  data-default
                 ,  text
+                ,  stm 
 
 executable fs2
   hs-source-dirs:      src
@@ -36,3 +37,4 @@ executable fs2
                     ,  yesod
                     ,  data-default
                     ,  text
+                    ,  stm 
