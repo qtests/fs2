@@ -13,7 +13,8 @@ main :: IO ()
 -- main = warp 3000 App
 -- main = warp 3000 $ App ["readme.txt", "report.pdf", "music.wav"]
 main = do
-    tfilenames <- atomically $ newTVar ["readme.txt", "report.pdf", "music.wav"]
+    -- tfilenames <- atomically $ newTVar ["readme.txt", "report.pdf", "music.wav"]
+    tfilenames <- atomically $ newTVar []
     warp 3000 $ App tfilenames
-    
+
 
